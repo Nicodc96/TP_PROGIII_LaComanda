@@ -1,0 +1,22 @@
+[
+    {
+        "id": "10001M",
+        "capacidad": 10,
+        "estado": "libre"
+    },
+    {
+        "id": "10002M",
+        "capacidad": 6,
+        "estado": "libre"
+    },
+    {
+        "id": "10003M",
+        "capacidad": 4,
+        "estado": "libre"
+    },
+    {
+        "id": "10004M",
+        "capacidad": 2,
+        "estado": "libre"
+    }
+]

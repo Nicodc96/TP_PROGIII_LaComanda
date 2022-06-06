@@ -1,0 +1,337 @@
+{
+	"info": {
+		"_postman_id": "bf62a818-8e2a-49ff-be31-8be325aa0755",
+		"name": "TP_LaComanda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11641824"
+	},
+	"item": [
+		{
+			"name": "Alta de Entidades",
+			"item": [
+				{
+					"name": "Alta Pedido",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "altaPedido",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "detalle",
+									"value": "Dos platos de fideos con salsa",
+									"type": "text"
+								},
+								{
+									"key": "idMesa",
+									"value": "10002M",
+									"type": "text"
+								},
+								{
+									"key": "fecha",
+									"value": "4-6-2022",
+									"type": "text"
+								},
+								{
+									"key": "tiempoEstimado",
+									"value": "30",
+									"type": "text"
+								},
+								{
+									"key": "productos",
+									"value": "10001P,10001P",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "pendiente",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/programacion3/Repositorios/TP_PROGIII_LaComanda/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"programacion3",
+								"Repositorios",
+								"TP_PROGIII_LaComanda",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alta Producto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "altaProducto",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "Fideos con salsa",
+									"type": "text"
+								},
+								{
+									"key": "precio",
+									"value": "424.99",
+									"type": "text"
+								},
+								{
+									"key": "tipo",
+									"value": "comida",
+									"type": "text"
+								},
+								{
+									"key": "cantidad",
+									"value": "15",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/programacion3/Repositorios/TP_PROGIII_LaComanda/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"programacion3",
+								"Repositorios",
+								"TP_PROGIII_LaComanda",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alta Usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "altaUsuario",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "Nicolas",
+									"type": "text"
+								},
+								{
+									"key": "apellido",
+									"value": "Diaz",
+									"type": "text"
+								},
+								{
+									"key": "edad",
+									"value": "26",
+									"type": "text"
+								},
+								{
+									"key": "rol",
+									"value": "socio",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "activo",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/programacion3/Repositorios/TP_PROGIII_LaComanda/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"programacion3",
+								"Repositorios",
+								"TP_PROGIII_LaComanda",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Alta Mesa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "altaMesa",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "capacidad",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "LiBrE",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/programacion3/Repositorios/TP_PROGIII_LaComanda/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"programacion3",
+								"Repositorios",
+								"TP_PROGIII_LaComanda",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Listar Entidades",
+			"item": [
+				{
+					"name": "Listar Usuarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/programacion3/Repositorios/TP_PROGIII_LaComanda/?usuarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"programacion3",
+								"Repositorios",
+								"TP_PROGIII_LaComanda",
+								""
+							],
+							"query": [
+								{
+									"key": "usuarios",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Productos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/programacion3/Repositorios/TP_PROGIII_LaComanda/?productos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"programacion3",
+								"Repositorios",
+								"TP_PROGIII_LaComanda",
+								""
+							],
+							"query": [
+								{
+									"key": "productos",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Mesas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/programacion3/Repositorios/TP_PROGIII_LaComanda/?mesas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"programacion3",
+								"Repositorios",
+								"TP_PROGIII_LaComanda",
+								""
+							],
+							"query": [
+								{
+									"key": "mesas",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Pedidos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/programacion3/Repositorios/TP_PROGIII_LaComanda/?pedidos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"programacion3",
+								"Repositorios",
+								"TP_PROGIII_LaComanda",
+								""
+							],
+							"query": [
+								{
+									"key": "pedidos",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

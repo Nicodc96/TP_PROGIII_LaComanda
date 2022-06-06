@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1F8VO",
+        "detalle": "dos platos de fideos con salsa",
+        "idMesa": "10002M",
+        "fecha": "4-6-2022",
+        "precio": 849.98,
+        "productos": [
+            {
+                "id": "10001P",
+                "nombre": "fideos con salsa",
+                "precio": 424.99,
+                "tipo": "comida",
+                "cantidad": 2
+            }
+        ],
+        "tiempoEstimado": 30,
+        "estado": "pendiente"
+    }
+]
